@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/myform.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body id="body">
+        <link rel="stylesheet" type="text/css" href="./Form_files/my1.css" <head="">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form
+    </title>
+    <h1><b><i>ARV COLLEGE</i></b></h1>
+    <h2><u>"COLLEGE APPLICATION FORM"</u></h2>
+    <form id="myform1">
+        <div id="grp1">
+            <label>Name</label>
+            <input type="text" placeholder="First Name" name="name">
+            <input type="text" placeholder="Last Name"><br><br>
+            <label>Gender</label><br>
+            <input type="radio" name="Male">Male
+            <input type="radio" name="Female">Female
+            <input type="radio" name="Others">Others<br><br>
+            <label>Student's Email</label>
+            <input type="Email" placeholder="Email">
+            <label>Student's Phone number</label>
+            <input type="number" placeholder="Phone number"><br><br>
+            <label>Father's Name</label>
+            <input type="text" placeholder="First Name" name="name"><br><br>
+            <label>Father's Email</label>
+            <input type="Email" placeholder="Email">
+            <label>Father's Phone Number</label>
+            <input type="number" placeholder="Ph Number"><br><br>
+            <label>Mother's Name</label>
+            <input type="text" placeholder="First Name" name="name"><br><br>
+            <label>Mother's Email</label>
+            <input type="Email" placeholder="Email">
+            <label>Mother's Phone Number</label>
+            <input type="number" placeholder="Phone number"><br><br>
+            <label> Home Address</label><br><br>
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="Street Name"><br>
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State"><br>
+            <input type="text" placeholder="Country">
+            <input type="number" placeholder="Pincode"><br><br>
+            <label>Please Select the Course you would like to join:</label><br><br>
+            <input type="checkbox">MPC
+            <input type="checkbox">Bipc
+            <input type="checkbox">MEC
+            <input type="checkbox">CEC
+            <input type="checkbox">HEC
+            
+            
+        
+
+
+            
+    
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></form></body></html>

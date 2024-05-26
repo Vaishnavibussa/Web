@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../styling/notification.css"> -->
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <div id="sidebar-container"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navside.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching navbar:', error));
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navside.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching navbar:', error));
+        });
+    </script>
+
+</body>
+</html>
